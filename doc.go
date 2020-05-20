@@ -70,4 +70,4 @@
 //	PASS
 //	ok  	command-line-arguments	42.531s
 //	$
-package b
+package b // import "modernc.org/b"

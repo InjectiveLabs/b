@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package b
+package b // import "modernc.org/b/example"
 
 import (
 	"io"
@@ -10,8 +10,8 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/cznic/fileutil"
-	"github.com/cznic/mathutil"
+	"modernc.org/fileutil"
+	"modernc.org/mathutil"
 )
 
 func rng() *mathutil.FC32 {
